@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>初期化サンプル</title>
+    <link rel="stylesheet" href="init.css">
+</head>
+<body>
+    <!-- シアターのようにナビゲーションバーを表示 -->
+    <h1>シアターナビゲーション</h1>
+    <header class="theater">
+        <nav class="layer">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Pricing</li>
+                <li>Showcase</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <section class="main layer">
+            <h1>Hello,World!!!</h1>
+        </section>
+    </header>
+
+    <!-- グリッドシステムサンプル -->
+    <div class="container">
+        <h1>グリッドシステム</h1>
+        <section class="row">
+            <div class="col-1">
+                アイテム１
+            </div>
+            <div class="col-3">
+                アイテム２
+            </div>
+            <div class="col-1">
+                アイテム３
+            </div>
+        </section>
+        <section class="row center">
+            <div>
+                まんなか
+            </div>
+        </section>
+
+        <!-- テーブルサンプル -->
+        <h1>テーブル</h1>
+        <table class="table">
+            <tr class="active">
+                <th>#</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>UserName</th>
+            </tr>
+            <tr class="success">
+                <td>1</td>
+                <td>Mark</td>
+                <td>Oddo</td>
+                <td>@twitter</td>
+            </tr>
+            <tr class="warning">
+                <td>2</td>
+                <td>Tony</td>
+                <td>all</td>
+                <td>@twitter</td>
+            </tr>
+            <tr class="danger">
+                <td>3</td>
+                <td>Peater</td>
+                <td>Oddo</td>
+                <td>@twitter</td>
+            </tr>
+        </table>
+
+        <!-- フォームサンプル -->
+        <h1>フォーム</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">名前を入力してください</label>
+                <input placeholder="Your name" type="text" tabindex="1" required autofocus id="name">
+            </div>
+            <div class="form-group">
+                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </div>
+            <div class="form-group">
+                <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+            </div>
+            <div class="form-group">
+                <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </div>
+            <div class="form-group">
+                <input type="file" name="file" value="">
+            </div>
+        </form>
+
+        <!-- ボタンサンプル -->
+        <h1>ボタン</h1>
+        <button type="button" class="button simple-effect">ボタン</button><br>
+        <button type="button" class="button fancy">ボタン</button><br>
+        <button type="button" class="button outline">ボタン</button><br>
+    </div>
+
+</body>
+</html>
